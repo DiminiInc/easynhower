@@ -1,3 +1,8 @@
 spring:
   application:
     name: easynhower
+  datasource:
+    url: jdbc:postgresql://localhost:5432/easynhower
+    username: postgres
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
